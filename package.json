@@ -1,0 +1,22 @@
+{
+  "name": "Optic",
+  "version": "0.1.0",
+  "description": "Visual Finance Tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js",
+    "package": "asar pack Optic-darwin-x64/Optic.app/Contents/Resources/app Optic-darwin-x64/Optic.app/Contents/Resources/app.asar",
+    "build": "electron-packager . Optic && cp assets/images/OpticIcon.icns Optic-darwin-x64/Optic.app/Contents/Resources/electron.icns"
+  },
+  "author": "Advaith Nair <advaithnair2@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^7.0.1",
+    "mysql": "github:mysqljs/mysql",
+    "popmotion": "^8.7.1",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^14.1.1"
+  }
+}

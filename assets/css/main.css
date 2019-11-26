@@ -1,0 +1,98 @@
+h1 {
+  color: white;
+  font-size: 300%;
+}
+
+h3 {
+  color: white;
+}
+
+#top {
+  margin-top: -10px;
+  margin-bottom: -10px;
+  padding: 5px;
+}
+
+p {
+  color: white;
+}
+
+body {
+  background-color: #202020;
+}
+
+body {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+
+body.all-loaded {
+  opacity: 1;
+}
+
+#header {
+  background-color: black;
+  padding: 10px;
+}
+
+#enter {
+  padding: 10px;
+  margin-top: -10px;
+}
+
+#center {
+  text-align: center;
+}
+
+#submitAll {
+  background-color: white;
+  border-radius: 50px;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 20px;
+  width: 100px;
+}
+
+#selectDate select {
+  background: white;
+  padding: 5px;
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 0px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0,5);
+  -webkit-appearance: button;
+  outline: none;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#selectDate select option {
+  text-align: center;
+}
+
+#selectDate:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 30px;
+  height: 30px;
+  /*background: #CCCCCC;*/
+  background-color: black;
+}
+
+table {
+  background-color: #CCCCCC;
+  color: black;
+  border: none;
+  width: 70%;
+}
+
+th {
+  background-color: #8E8E8E;
+}

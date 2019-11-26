@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Optic</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+    <div id = "header">
+      <h1 class = "text-center" id = "top"><b>OPTIC</b></h1>
+      <p class = "text-center" id = "top">Visual Finance</p>
+    </div>
+
+    <div id = "enter" class = "enterDiv">
+        <h3 class = "text-center"><u>Enter</u></h3>
+          <div class = "row" id = "row_one">
+            <div id = "center" class = "col-sm-3 first_col">
+                <h3 class = "text-center">Date</h3>
+                <input id = "enterDate" placeholder="MM-DD-YYYY"><br>
+            </div>
+
+            <div id = "center" class = "col-sm-3 second_col">
+              <h3 class = "text-center">Expense</h3>
+              <input id = "enterExpense" placeholder="Expense"><br>
+            </div>
+
+            <div id = "center" class = "col-sm-3 third_col">
+                <h3 class = "text-center">Purpose</h3>
+                <input id = "enterPurpose" placeholder="Purpose"><br>
+            </div>
+
+            <div id = "center" class = "col-sm-3 fourth_col">
+                <h3 class = "text-center">Necessity</h3>
+                <input id = "enterNecessity" placeholder="Necessity"><br>
+            </div>
+          </div>
+
+          <div id = "center">
+            <button id = "submitAll" onclick="submitAll()">Submit</button><br>
+            <button id = "submitAll" onclick="connect()">Connect</button>
+          </div>
+    </div>
+
+    <div id = "data">
+      <div class = "text-center" id = "selectDate">
+        <select>
+          <option value = "1">August 2019</option>
+          <option value = "2">September 2019</option>
+          <option value = "3">October 2019</option>
+          <option value = "4">November 2019</option>
+          <option value = "5">December 2019</option>
+        </select><br><br>
+      </div>
+
+      <div id = "tableSection">
+        <table class = "table table-bordered table-hover" id = "tabularData">
+          <tr>
+            <th>Month</th>
+            <th>Date</th>
+            <th>Year</th>
+            <th>Expense</th>
+            <th>Purpose</th>
+            <th>Necessity</th>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>24</td>
+            <td>2019</td>
+            <td>50.00</td>
+            <td>CSE 002 Textbook</td>
+            <td>3</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src = "https://unpkg.com/popmotion/dist/popmotion.global.min.js"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src = "assets/js/main.js"></script>
+    <script src = "assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
