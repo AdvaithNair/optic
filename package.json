@@ -11,7 +11,7 @@
   "author": "Advaith Nair <advaithnair2@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "electron": "^7.0.1",
+    "electron": "^18.3.7",
     "mysql": "github:mysqljs/mysql",
     "popmotion": "^8.7.1",
     "sqlite3": "^4.1.0"
